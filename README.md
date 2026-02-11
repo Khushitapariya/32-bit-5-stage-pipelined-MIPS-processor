@@ -7,4 +7,5 @@ This project implements a 32-bit, 5-stage pipelined processor coded in Verilog. 
 3. Execution (EX): Performs arithmetic and logical operations.
 4. Memory Access (MEM): Accesses memory for load and store instructions.
 5. Write Back (WB): Writes results back to the register file.
+   
 By breaking down the instruction execution process into these five stages, the processor can execute multiple instructions simultaneously, increasing overall performance and efficiency.
